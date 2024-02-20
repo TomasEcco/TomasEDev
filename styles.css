@@ -8,7 +8,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    margin-bottom: 20px; /* Separación en la parte inferior del encabezado */
+    margin-bottom: 20px; 
 }
 
 header h1 {
@@ -34,8 +34,7 @@ main {
     display: flex;
     border: 1px solid black;
     border-radius: 2px;
-    margin-bottom: 20px; /* Separación en la parte inferior del contenido principal */
-}
+    margin-bottom: 20px;
 
 .container {
     border: 1px solid black;
@@ -76,20 +75,15 @@ footer {
     padding: 20px;
     text-align: center;
     border-top: 1px solid black;
-    margin-top: 20px; /* Separación en la parte superior del pie de página */
-}
+    margin-top: 20px; 
 
 section {
     display: grid;
     border: 1px solid black;
-    margin-bottom: 20px; /* Separación en la parte inferior de la sección */
-}
+    margin-bottom: 20px; 
 
 article {
     border: 1px solid black;
-    margin-bottom: 20px; /* Separación en la parte inferior de los artículos */
-}
-
-header {
+    margin-bottom: 20px;
     border-bottom: 1px solid black;
 }
