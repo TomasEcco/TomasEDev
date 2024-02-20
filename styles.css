@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; /* Separación en la parte inferior del encabezado */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 20px; /* Separación en la parte inferior del contenido principal */
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 500px;
+    height: 1000px;
+    display: grid;
+}
+
+.subtitulos {
+    background-color: rgb(189, 188, 188);
+    text-align: center;
+    border: 1px solid black;
+}
+
+main > article {
+    flex: 2;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+main > section {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid black;
+}
+
+main > aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-left: 1px solid black;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 20px; /* Separación en la parte superior del pie de página */
+}
+
+section {
+    display: grid;
+    border: 1px solid black;
+    margin-bottom: 20px; /* Separación en la parte inferior de la sección */
+}
+
+article {
+    border: 1px solid black;
+    margin-bottom: 20px; /* Separación en la parte inferior de los artículos */
+}
+
+header {
+    border-bottom: 1px solid black;
+}
